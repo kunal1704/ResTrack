@@ -1,0 +1,5 @@
+data/job_descriptions/*
+data/resumes/*
+
+!data/job_descriptions/.gitkeep
+!data/resumes/.gitkeep

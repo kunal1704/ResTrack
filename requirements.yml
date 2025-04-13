@@ -1,0 +1,12 @@
+name: restrack
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pdfminer.six
+      - docx2txt
+      - sentence-transformers
+      - scikit-learn
+      - numpy
