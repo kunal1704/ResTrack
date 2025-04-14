@@ -7,8 +7,8 @@ def main():
     # Parse resume and JD
     PATH = pathlib.Path.cwd().parent
     
-    resume_path = PATH / "data"/ "resumes"/"resume.pdf"
-    jd_path = PATH / "data"/ "job_descriptions"/"SproutsAI.pdf"
+    resume_path = "Resume_Path"
+    jd_path = "JD_Path"
     
     resume_text = parse_document(resume_path)
     jd_text = parse_document(jd_path)

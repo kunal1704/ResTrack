@@ -5,8 +5,9 @@ dependencies:
   - python=3.10
   - pip
   - pip:
-      - pdfminer.six
+      - PyMuPDF
       - docx2txt
       - sentence-transformers
       - scikit-learn
       - numpy
+      - nltk
